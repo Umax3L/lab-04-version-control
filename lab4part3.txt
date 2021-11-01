@@ -16,6 +16,7 @@ Follow the instructions line-by-line.
 
 Write the command you used to do this below.
 ----------
+cd ~/Desktop/wwong/lab-04-version-control
 nano temp.txt
 
 
