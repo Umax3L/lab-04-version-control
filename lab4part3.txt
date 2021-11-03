@@ -30,7 +30,9 @@ nano temp.txt
 
 Write the command that you used to do this, and the last two lines of output.
 ----------
-
+ls -al
+lrwxrwxrwx 1 om7gv 197609       58 Oct 12  2020  Templates -> /c/Users/om7gv/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 om7gv 197609        0 Jul  9 15:14  Videos/
 
 ==========
 4. Run the same command, but look for a specific process.  (It's the version of the command that has | grep ...).  Look for the program that you started to edit a file, nano.
@@ -68,21 +70,21 @@ Quit and save when you're done.
 
 What command did you use to do this?
 ----------
-
+./hello.sh
 
 ==========
 9. Change the permissions (modify) on hello.sh so that the *user* (u) can *execute* (x) it: 
 
 Write the commands that you used to do this below.
 ----------
-
+chmod u+x hello.sh
 
 ==========
 10. Run your script (hello.sh).
 
 How did you do this?  What was the output?
 ----------
-
+./hello.sh
 
 ==========
 11. Change to the root directory.  Try running your script again (hello.sh).  What was the output (if there's an error, write it out)?
